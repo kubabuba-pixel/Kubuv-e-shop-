@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kubův Eshop</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #00ffcc;
+    }
+    .kategorie {
+      margin-bottom: 30px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kubův Eshop</h1>  <div class="kategorie">
+    <h2>Kategorie 1: Editování videa</h2>
+    <ul>
+      <li>Krátké video (0–3 min): 1 Kč</li>
+      <li>Dlouhé video (3–10 min): 2 Kč</li>
+      <li>Editace do 2 dnů – Krátké: 2 Kč</li>
+      <li>Editace do 2 dnů – Dlouhé: 3 Kč</li>
+      <li>Editace do měsíce – Krátké: 3 Kč</li>
+      <li>Editace do měsíce – Dlouhé: 4 Kč</li>
+    </ul>
+  </div>  <div class="kategorie">
+    <h2>Kategorie 2: Snídaně</h2>
+    <ul>
+      <li>Vajíčka: 200 jako</li>
+      <li>Párky: 50 jako</li>
+      <li>Rohlík/chleba + máslo, sýr, salám: 20 jako</li>
+    </ul>
+  </div>
+</body>
+</html>
